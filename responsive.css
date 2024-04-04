@@ -1,0 +1,90 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .header-left {
+    float: right;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .header-left {
+    float: right;
+  }
+
+  .menu-icon {
+    display: block;
+    float: left;
+  }
+
+  .loader {
+    width: 100px;
+    height: 50px;
+    margin-left: 30vw;
+    padding-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 200px 0;
+    background-image: url("./aset/sampul/sampul2.png");
+  }
+
+  #cari {
+    width: 100%;
+  }
+
+  .misisimerka {
+    width: 80%;
+  }
+
+  .misisimerka a {
+    margin-top: 10px;
+  }
+}

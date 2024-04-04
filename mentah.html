@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>si Paling Dashboard</title>
+    <!-- masukkan ikon -->
+    <script src="https://kit.fontawesome.com/bf9192ff90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="lab la-accusoft"></span> <span>SPMB STIS 2022</span></h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><span><i class="fa-solid fa-house"></i></span>
+                        <span>Home</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa-regular fa-address-card"></i></span>
+                        <span>Login</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa-solid fa-table-columns"></i></span>
+                        <span>Member List</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa-solid fa-file-pen"></i></span>
+                        <span>Ujian</span></a>
+                </li>
+                <li>
+                    <a href=""><span><i class="fa-solid fa-chart-line"></i></span>
+                        <span>Score</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <!-- <span class="las la-bars"> -->
+                    <span><i class="fa-solid fa-bars"></i>
+                    </span>
+                </label>
+                Home
+            </h2>
+
+            <div class="search-wrapper">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="search" placeholder="Search" />
+            </div>
+
+            <div class="user-wrapper">
+                <img src="./aset/logo/logo.png" width="30px" height="30px" alt="gambar Logo">
+                <div>
+                    <h4>Sasti Prasasti</h4>
+                    <small>super admin</small>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <span class="las la-users"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h1>79</h1>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <span class="las la-clipboard-list"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h1>134</h1>
+                        <span>Order</span>
+                    </div>
+                    <div>
+                        <span class="las la-shopping-bag"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h1>$914</h1>
+                        <span>Income</span>
+                    </div>
+                    <div>
+                        <span class="las la-google-wallet"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Recent Projects</h2>
+
+                            <button>Tampilkan <span class="las la-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Judul Projek</td>
+                                            <td>Departemen</td>
+                                            <td>Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status dark"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status young"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Admin IG</td>
+                                            <td>Media Team</td>
+                                            <td>
+                                                <span class="status sedang"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status dark"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status young"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Admin IG</td>
+                                            <td>Media Team</td>
+                                            <td>
+                                                <span class="status sedang"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Recent Project</h3>
+                            <button>Tampilkan <span class="las la-arrow-right"></span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="aset/sosmed/instagram.png" width="40px" height="40px"
+                                        alt="gambar ig dulu">
+                                    <div>
+                                        <h4>Prasasti S</h4>
+                                        <small>CEO </small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la--comment"></span>
+                                    <span class="las la-user-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="aset/sosmed/instagram.png" width="40px" height="40px"
+                                        alt="gambar ig dulu">
+                                    <div>
+                                        <h4>Prasasti S</h4>
+                                        <small>CEO </small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la--comment"></span>
+                                    <span class="las la-user-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="aset/sosmed/instagram.png" width="40px" height="40px"
+                                        alt="gambar ig dulu">
+                                    <div>
+                                        <h4>Prasasti S</h4>
+                                        <small>CEO </small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la--comment"></span>
+                                    <span class="las la-user-phone"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
